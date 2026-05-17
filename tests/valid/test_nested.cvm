@@ -1,0 +1,8 @@
+let x = input();
+if (x > 0) {
+    let y = 10;
+    if (y > 5) {
+        print(y);
+    }
+}
+print(x);

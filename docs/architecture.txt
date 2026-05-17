@@ -1,0 +1,17 @@
+Source Code
+↓
+Lexer
+↓
+Tokens
+↓
+Parser
+↓
+AST
+↓
+Compiler
+↓
+Bytecode
+↓
+Virtual Machine
+↓
+Execution

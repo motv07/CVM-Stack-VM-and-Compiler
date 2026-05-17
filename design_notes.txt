@@ -1,0 +1,14 @@
+Stack-Based Virtual Machine
+
+Arithmetic:
+- pops two values
+- performs operation
+- pushes result
+
+Boolean:
+1 = true
+0 = false
+
+Variables:
+STORE name
+LOAD name

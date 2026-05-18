@@ -263,9 +263,13 @@ primary     -> NUMBER
 # Build Instructions
 
 Compile:
-
+For Windows :
 ```bash
-make
+mingw32-make 
+```
+For Windows :
+```bash
+make 
 ```
 
 Clean:

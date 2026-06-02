@@ -406,61 +406,30 @@ CVM++/
 # Tech Stack
 
 Language:
-
 - C++
 
 Core Concepts:
-
+- Language Grammar Design
 - Lexical Analysis
 - Tokenization
 - Recursive Descent Parsing
-- Abstract Syntax Trees
+- Abstract Syntax Tree (AST) Design
+- AST Visualization and Debugging
+- Syntax Diagnostics and Error Reporting
 - Bytecode Generation
-- Opcode Design
-- Stack-Based Execution
+- Opcode Instruction Set Architecture (ISA) Design
+- Stack-Based Virtual Machine Architecture
 - Runtime Environments
-- Lexical Scoping
-- Memory Handling
-- VM Dispatch Loops
-
----
-
-# Contributors
-
-## Vishwak
-
-Primary Contributions:
-
-- Lexer
-- Recursive Descent Parser
-- AST Design
-- Grammar Design
-- AST Printer
-- Syntax Diagnostics
-- Frontend Testing
-
-Secondary:
-
-- REPL Integration
-
----
-
-## Srikar
-
-Primary Contributions:
-
-- Opcode ISA
-- Bytecode Compiler
-- Virtual Machine Runtime
-- Environment Stack System
-- Logical Operators Execution
+- Environment Stack Management
 - Variable Memory Handling
-- Control Flow Runtime
-
-Secondary:
-
+- Lexical Scoping
+- Logical Operator Execution
+- Control Flow Execution
+- VM Dispatch Loops
+- REPL Design and Integration
+- Compiler and Runtime Testing
 - Bytecode Debugging
-- Integration
+- System Integration
 
 ---
 

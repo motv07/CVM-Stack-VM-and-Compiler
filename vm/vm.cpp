@@ -473,8 +473,6 @@ void VM::resetProgram()
 {
     program.clear();
     ip = 0;
-
-    // Also clear the scopes when resetting!
-    scopeStack.clear();
-    scopeStack.push_back({});
+    stack.clear();
+    // Preserve variable scopes between REPL executions.
 }
